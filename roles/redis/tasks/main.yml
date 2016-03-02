@@ -1,3 +1,6 @@
 ---
 - name: install redis
   pacman: name=redis state=present
+
+- name: start and enable redis
+  service: "name={{ redis_service_name }} state=started enabled=yes"
