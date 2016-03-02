@@ -1,0 +1,14 @@
+---
+galaxy_info:
+  author: Alireza Savand <alireza.savand@gmail.com>
+  description: "Redis installer"
+  license: GPLv3
+  min_ansible_version: 1.8
+  platforms:
+    - name: Archlinux
+      versions:
+      - all
+  categories:
+    - database:nosql
+
+dependencies: []
