@@ -2,4 +2,5 @@
 - hosts: badge
   sudo: True
   roles:
-      - redis
+    - redis
+    - badge
