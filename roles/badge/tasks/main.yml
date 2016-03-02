@@ -1,0 +1,10 @@
+---
+- name: install Python toolchain
+  pacman: name={{ item }} state=present
+  with_items:
+    - python-virtualenvwrapper
+
+- name: Installed required fonts
+  pacman: name={{ item }} state=present
+  with_items:
+    - ttf-opensans

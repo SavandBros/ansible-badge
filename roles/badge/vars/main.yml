@@ -1,0 +1,4 @@
+---
+badge_source_code: "/home/admin/www/badge/"
+bagde_server_serice_name: "badgek51"
+twistd_port: 80

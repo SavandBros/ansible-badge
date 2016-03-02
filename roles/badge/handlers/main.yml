@@ -1,0 +1,3 @@
+---
+- name: restart badge server
+  service: name={{ bagde_server_serice_name }} state=restarted
