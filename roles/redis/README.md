@@ -17,8 +17,9 @@ None.
 
 ## Role Variables
 
-No Role Variables available yet.
-It's pretty much simple.
+* `redis_service_name`
+* `redis_conf_path`
+
 
 ## Dependencies
 
